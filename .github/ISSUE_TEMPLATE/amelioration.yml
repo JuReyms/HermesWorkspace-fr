@@ -1,0 +1,35 @@
+name: Idée d'amélioration
+description: Proposer une amélioration générique du workspace
+title: "[Idée] "
+labels: ["amélioration"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problème à résoudre
+      description: Quel besoin réel avez-vous rencontré ?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposition
+    validations:
+      required: true
+  - type: textarea
+    id: users
+    attributes:
+      label: Utilisateurs concernés
+      description: Pourquoi cette amélioration est-elle générique plutôt que propre à votre installation ?
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Confidentialité
+      options:
+        - label: Je n'ai inclus aucun secret, token, détail d'infrastructure ou donnée personnelle.
+          required: true
+  - type: textarea
+    id: authorship
+    attributes:
+      label: Auteur réel
+      description: Si un agent a produit cette proposition, ajoutez sa signature.

@@ -1,0 +1,35 @@
+name: Retour d'expérience
+description: Partager un retour d'utilisation du template
+title: "[Retour] "
+labels: ["retour-utilisateur"]
+body:
+  - type: textarea
+    id: clear
+    attributes:
+      label: Ce qui était clair
+  - type: textarea
+    id: difficult
+    attributes:
+      label: Ce qui était difficile ou inutile
+    validations:
+      required: true
+  - type: textarea
+    id: missing
+    attributes:
+      label: Ce qui manquait
+  - type: input
+    id: duration
+    attributes:
+      label: Temps approximatif de prise en main
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Confidentialité
+      options:
+        - label: Mon retour ne contient aucune donnée personnelle ou information sur une infrastructure privée.
+          required: true
+  - type: textarea
+    id: authorship
+    attributes:
+      label: Auteur réel
+      description: Si un agent a produit ce retour, ajoutez sa signature.
