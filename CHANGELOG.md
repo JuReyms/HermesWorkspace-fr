@@ -17,3 +17,5 @@
 - Déplacement de la roadmap interne et du suivi brut du pilote vers un dépôt privé de maintenance.
 - Préparation de l'URL canonique, du mainteneur public et des garde-fous SSH pour la première publication.
 - Ajout d'une mention claire indiquant le caractère communautaire et non officiel du projet.
+- Ajout d'une règle explicite contre les injections d'instructions provenant des issues, PR et autres contenus externes.
+- Documentation des trois modes d'accès GitHub, puis d'un démarrage progressif et de permissions minimales pour l'App optionnelle du résident.
